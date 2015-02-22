@@ -131,17 +131,17 @@
         <li>
           <a
             href="#"
-            ng-click="forcePauseAll()"><i class="fa fa-fw fa-pause">&nbsp;</i> Pause All</a>
+            ng-click="forcePauseAll()"><i class="fa fa-fw fa-pause">&nbsp;</i> 暂停所有任务</a>
         </li>
         <li>
           <a
             href="#"
-            ng-click="unpauseAll()"><i class="fa fa-fw fa-play">&nbsp;</i> Resume Paused</a>
+            ng-click="unpauseAll()"><i class="fa fa-fw fa-play">&nbsp;</i> 恢复暂停的任务</a>
         </li>
         <li>
           <a
             href="#"
-            ng-click="purgeDownloadResult()"><i class="fa fa-fw fa-times-circle">&nbsp;</i> Purge Completed</a>
+            ng-click="purgeDownloadResult()"><i class="fa fa-fw fa-times-circle">&nbsp;</i> 清除完成任务</a>
         </li>
 
         <!-- not adding remove all as requires many rpc syscalls to finish
@@ -160,9 +160,10 @@
       <li class="dropdown">
         <a
           href="#"
-          class="dropdown-toggle">Settings <b class="caret"></b></a>
+          class="dropdown-toggle">设置 <b class="caret"></b></a>
 
         <ul class="dropdown-menu">
+          <!--
           <li>
             <a
               ng-click="changeCSettings()"
@@ -174,17 +175,17 @@
               ng-click="changeGSettings()"
               href="#"><i class="fa fa-fw fa-wrench">&nbsp;</i> Global Settings</a>
           </li>
-
+          -->
           <li>
             <a
               ng-click="showServerInfo()"
-              href="#"><i class="fa fa-fw fa-info-circle">&nbsp;</i> Server info</a>
+              href="#"><i class="fa fa-fw fa-info-circle">&nbsp;</i> 路由器信息</a>
           </li>
 
           <li>
             <a
               ng-click="showAbout()"
-              href="#"><i class="fa fa-fw fa-question-circle">&nbsp;</i> About and contribute</a>
+              href="#"><i class="fa fa-fw fa-question-circle">&nbsp;</i> 关于</a>
           </li>
         </ul>
       </li>
@@ -197,10 +198,10 @@
           href="#">Miscellaneous <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li>
-            <a href="#"><i class="fa fa-fw fa-list-alt">&nbsp;</i> Global Statistics</a>
+            <a href="#"><i class="fa fa-fw fa-list-alt">&nbsp;</i> 全局统计</a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-fw fa-info-circle">&nbsp;</i> About</a>
+            <a href="#"><i class="fa fa-fw fa-info-circle">&nbsp;</i> 关于</a>
           </li>
         </ul>
       </li>
